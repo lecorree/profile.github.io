@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(249, 242, 244);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    /* border: 10px blue solid; */
+}
+
+.card-white {
+    background-color: white;
+    width: 700px;
+    padding: 50px;
+    box-shadow: 10px 20px 20px rgb(0, 0, 0,0.2);
+    border-radius: 4px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(80, 77, 77);
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(39, 135, 124);
+}
+
+ul, ol, li {
+    list-style: none;
+    padding-left: 0em;
+}
+
+ol {
+    line-height: 1.5em;
+}
+
+ul {
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none; 
+    color: rgb(30,30,30);
+    display: inline-block;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.box-yellow {
+    padding: 40px;
+    margin: 40px auto;
+    width: 100%;
+    border: 3px red solid;
+}
+
+.button-blue {
+    background-color: rgb(18, 159, 159);
+    color: white;
+    padding: 10px 13px;
+    margin: 12px;
+    border-radius: 8px;
+    transition: .2s;
+    word-spacing: 0.02em;
+    letter-spacing: 0.01em;
+}
+
+.button-blue:hover {
+    background-color: white;
+    border: 3px rgb(18, 159, 159)solid;
+    color: rgb(18, 159, 159);
+    transition: .2s;
+}
+
+.cats-picture {
+    width: 200px;
+    height: auto;
+}
+
+#cats-bordered {
+    border: 4px pink dashed;
+}
+
+@media screen and (max-width: 600px) {
+    .card-white {
+        width: 400px;
+    }
+}
+
+.img-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+.img-sm{
+    margin: 12px;
+    width: 80px;
+    height: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.list-inline{
+    list-style: none;
+    padding: 10px;
+}
+
+.img-sm:hover {
+    transform: scale(1.2);
+}
